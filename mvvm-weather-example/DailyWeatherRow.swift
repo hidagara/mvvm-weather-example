@@ -14,8 +14,8 @@ struct DailyWeatherRow: View {
                 Text("\(viewModel.month)")
             }
             VStack(alignment: .leading, spacing: nil) {
-                Text("\(viewModel.title)")
-                Text("\(viewModel.footnote)")
+                Text("\(viewModel.title)").font(.body)
+                Text("\(viewModel.fullDescription)").font(.footnote)
             }.padding(.leading, 8)
             
             Spacer()

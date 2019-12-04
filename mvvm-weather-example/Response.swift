@@ -11,7 +11,7 @@ struct WeeklyForecastResponse: Codable {
     let list: [Item]
     
     
-    struct Item: [Codable] {
+    struct Item: Codable {
         let date: Date
         let main: MainClass
         let weather: [Weather]
