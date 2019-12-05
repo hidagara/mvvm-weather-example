@@ -13,7 +13,7 @@ private extension WeatherFetcher {
     struct OpenWeatherAPI {
         static let scheme = "https"
         static let host = "api.openweathermap.org"
-        static let path = "/data/2.5"
+        static let path = "/data/2.5/weather"
         static let key = "0eea25e6c323d9bccc349d4bc2f59ef5"
     }
     
