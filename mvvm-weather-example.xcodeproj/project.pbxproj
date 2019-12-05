@@ -14,7 +14,7 @@
 		2E44A0CC2398005600C21A6F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44A0CB2398005600C21A6F /* MapView.swift */; };
 		2E44A0D02398106C00C21A6F /* DailyWeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44A0CF2398106C00C21A6F /* DailyWeatherRow.swift */; };
 		2E44A0D22398119B00C21A6F /* DailyWeatherRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44A0D12398119B00C21A6F /* DailyWeatherRowViewModel.swift */; };
-		2E44A0D52398133600C21A6F /* WeeklyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44A0D42398133600C21A6F /* WeeklyWeather.swift */; };
+		2E44A0D52398133600C21A6F /* WeeklyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44A0D42398133600C21A6F /* WeeklyWeatherView.swift */; };
 		2E44A0D8239813B400C21A6F /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44A0D7239813B400C21A6F /* CurrentWeatherView.swift */; };
 		2E95C0F123959811003881A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95C0F023959811003881A9 /* AppDelegate.swift */; };
 		2E95C0F323959811003881A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95C0F223959811003881A9 /* SceneDelegate.swift */; };
@@ -30,6 +30,7 @@
 		2EBD53172398154700D24E85 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD53162398154700D24E85 /* Response.swift */; };
 		2EBD53192398272A00D24E85 /* WeatherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD53182398272A00D24E85 /* WeatherError.swift */; };
 		2EBD531B2398277D00D24E85 /* WeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD531A2398277D00D24E85 /* WeatherFetcher.swift */; };
+		2EBD531D239830B500D24E85 /* WeeklyWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD531C239830B500D24E85 /* WeeklyWeatherViewModel.swift */; };
 		F4A9BDFC43ABAFCEBE517C88 /* Pods_mvvm_weather_exampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681DF4814D54104943E8CA85 /* Pods_mvvm_weather_exampleUITests.framework */; };
 		F648BECF0CF65F586FC0EA34 /* Pods_mvvm_weather_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F92078D81AC812A69974CE /* Pods_mvvm_weather_example.framework */; };
 /* End PBXBuildFile section */
@@ -59,7 +60,7 @@
 		2E44A0CB2398005600C21A6F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2E44A0CF2398106C00C21A6F /* DailyWeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailyWeatherRow.swift; path = "mvvm-weather-example/DailyWeatherRow.swift"; sourceTree = SOURCE_ROOT; };
 		2E44A0D12398119B00C21A6F /* DailyWeatherRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherRowViewModel.swift; sourceTree = "<group>"; };
-		2E44A0D42398133600C21A6F /* WeeklyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeeklyWeather.swift; path = "mvvm-weather-example/WeeklyWeather.swift"; sourceTree = SOURCE_ROOT; };
+		2E44A0D42398133600C21A6F /* WeeklyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeeklyWeatherView.swift; path = "mvvm-weather-example/WeeklyWeatherView.swift"; sourceTree = SOURCE_ROOT; };
 		2E44A0D7239813B400C21A6F /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
 		2E95C0ED23959811003881A9 /* mvvm-weather-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-weather-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E95C0F023959811003881A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		2EBD53162398154700D24E85 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Response.swift; path = "mvvm-weather-example/Response.swift"; sourceTree = SOURCE_ROOT; };
 		2EBD53182398272A00D24E85 /* WeatherError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherError.swift; sourceTree = "<group>"; };
 		2EBD531A2398277D00D24E85 /* WeatherFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFetcher.swift; sourceTree = "<group>"; };
+		2EBD531C239830B500D24E85 /* WeeklyWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeeklyWeatherViewModel.swift; path = "mvvm-weather-example/Weather/WeeklyWeatherViewModel.swift"; sourceTree = SOURCE_ROOT; };
 		306AAD6DEB3C88306812C9D1 /* Pods-mvvm-weather-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-weather-exampleTests.debug.xcconfig"; path = "Target Support Files/Pods-mvvm-weather-exampleTests/Pods-mvvm-weather-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		681DF4814D54104943E8CA85 /* Pods_mvvm_weather_exampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_weather_exampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB3D6AF9AC0DF8ADF93FC8A /* Pods_mvvm_weather_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_weather_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,7 +187,8 @@
 		2E44A0D32398132700C21A6F /* WeeklyWeather */ = {
 			isa = PBXGroup;
 			children = (
-				2E44A0D42398133600C21A6F /* WeeklyWeather.swift */,
+				2E44A0D42398133600C21A6F /* WeeklyWeatherView.swift */,
+				2EBD531C239830B500D24E85 /* WeeklyWeatherViewModel.swift */,
 			);
 			path = WeeklyWeather;
 			sourceTree = "<group>";
@@ -496,7 +499,7 @@
 				2EBD531B2398277D00D24E85 /* WeatherFetcher.swift in Sources */,
 				2E95C0F523959811003881A9 /* ViewController.swift in Sources */,
 				2E95C0F123959811003881A9 /* AppDelegate.swift in Sources */,
-				2E44A0D52398133600C21A6F /* WeeklyWeather.swift in Sources */,
+				2E44A0D52398133600C21A6F /* WeeklyWeatherView.swift in Sources */,
 				2E44A0C62397FF8D00C21A6F /* DateFormatter.swift in Sources */,
 				2E44A0C92398004000C21A6F /* Parser.swift in Sources */,
 				2EBD53192398272A00D24E85 /* WeatherError.swift in Sources */,
@@ -505,6 +508,7 @@
 				2EBD53172398154700D24E85 /* Response.swift in Sources */,
 				2E44A0D8239813B400C21A6F /* CurrentWeatherView.swift in Sources */,
 				2E95C0FB23959811003881A9 /* mvvm_weather_example.xcdatamodeld in Sources */,
+				2EBD531D239830B500D24E85 /* WeeklyWeatherViewModel.swift in Sources */,
 				2E44A0D22398119B00C21A6F /* DailyWeatherRowViewModel.swift in Sources */,
 				2EBD53122398142600D24E85 /* CurrentWeatherRow.swift in Sources */,
 				2E44A0CC2398005600C21A6F /* MapView.swift in Sources */,
