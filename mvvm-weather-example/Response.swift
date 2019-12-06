@@ -23,6 +23,12 @@ struct WeeklyForecastResponse: Codable {
         }
     }
     
+    init(from decoder: Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        self.list = [try container.decode(Item.self)]
+        
+    }
+    
     struct MainClass: Codable {
         let temp: Double
     }
