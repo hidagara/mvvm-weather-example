@@ -2,7 +2,9 @@ import SwiftUI
 import Foundation
 import MapKit
 
-struct CurrentWeatherRowViewModel {
+class CurrentWeatherRowViewModel: ObservableObject, Identifiable {
+    @Published var dataSource: CurrentWeatherRowViewModel?
+    
     private let item: CurrentWeatherForecastResponse
     
     var temperature: String {
